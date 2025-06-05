@@ -82,8 +82,6 @@ Scheduler/
 - UIAlertController 사용법 (ActionSheet 스타일)
 - UINavigationController의 뷰 스택 구조 이해
 - ViewController 라이프사이클 활용 (`viewWillAppear`, `viewDidDisappear` 등)
-- - AlertController의 handler 클로저 사용 예시 포함
+- AlertController의 handler 클로저 사용 예시 포함
 - UINavigationController의 스택 인덱스를 활용하여 이전 화면 접근
-- 메모 전달은 직접 segue가 아닌 `viewControllers[1]` 접근으로 구현
-
 
