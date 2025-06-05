@@ -1,0 +1,570 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		28EDDD3C2DC094FF0008A7BE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 28EDDD1D2DC094FC0008A7BE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 28EDDD242DC094FC0008A7BE;
+			remoteInfo = Scheduler;
+		};
+		28EDDD462DC094FF0008A7BE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 28EDDD1D2DC094FC0008A7BE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 28EDDD242DC094FC0008A7BE;
+			remoteInfo = Scheduler;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		28EDDD252DC094FC0008A7BE /* Scheduler.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Scheduler.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		28EDDD3B2DC094FF0008A7BE /* SchedulerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SchedulerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		28EDDD452DC094FF0008A7BE /* SchedulerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SchedulerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		28EDDD4D2DC094FF0008A7BE /* Exceptions for "Scheduler" folder in "Scheduler" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 28EDDD242DC094FC0008A7BE /* Scheduler */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		28EDDD272DC094FC0008A7BE /* Scheduler */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				28EDDD4D2DC094FF0008A7BE /* Exceptions for "Scheduler" folder in "Scheduler" target */,
+			);
+			path = Scheduler;
+			sourceTree = "<group>";
+		};
+		28EDDD3E2DC094FF0008A7BE /* SchedulerTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = SchedulerTests;
+			sourceTree = "<group>";
+		};
+		28EDDD482DC094FF0008A7BE /* SchedulerUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = SchedulerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		28EDDD222DC094FC0008A7BE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28EDDD382DC094FF0008A7BE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28EDDD422DC094FF0008A7BE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		28EDDD1C2DC094FC0008A7BE = {
+			isa = PBXGroup;
+			children = (
+				28EDDD272DC094FC0008A7BE /* Scheduler */,
+				28EDDD3E2DC094FF0008A7BE /* SchedulerTests */,
+				28EDDD482DC094FF0008A7BE /* SchedulerUITests */,
+				28EDDD262DC094FC0008A7BE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		28EDDD262DC094FC0008A7BE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				28EDDD252DC094FC0008A7BE /* Scheduler.app */,
+				28EDDD3B2DC094FF0008A7BE /* SchedulerTests.xctest */,
+				28EDDD452DC094FF0008A7BE /* SchedulerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		28EDDD242DC094FC0008A7BE /* Scheduler */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 28EDDD4E2DC094FF0008A7BE /* Build configuration list for PBXNativeTarget "Scheduler" */;
+			buildPhases = (
+				28EDDD212DC094FC0008A7BE /* Sources */,
+				28EDDD222DC094FC0008A7BE /* Frameworks */,
+				28EDDD232DC094FC0008A7BE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				28EDDD272DC094FC0008A7BE /* Scheduler */,
+			);
+			name = Scheduler;
+			packageProductDependencies = (
+			);
+			productName = Scheduler;
+			productReference = 28EDDD252DC094FC0008A7BE /* Scheduler.app */;
+			productType = "com.apple.product-type.application";
+		};
+		28EDDD3A2DC094FF0008A7BE /* SchedulerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 28EDDD532DC094FF0008A7BE /* Build configuration list for PBXNativeTarget "SchedulerTests" */;
+			buildPhases = (
+				28EDDD372DC094FF0008A7BE /* Sources */,
+				28EDDD382DC094FF0008A7BE /* Frameworks */,
+				28EDDD392DC094FF0008A7BE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				28EDDD3D2DC094FF0008A7BE /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				28EDDD3E2DC094FF0008A7BE /* SchedulerTests */,
+			);
+			name = SchedulerTests;
+			packageProductDependencies = (
+			);
+			productName = SchedulerTests;
+			productReference = 28EDDD3B2DC094FF0008A7BE /* SchedulerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		28EDDD442DC094FF0008A7BE /* SchedulerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 28EDDD562DC094FF0008A7BE /* Build configuration list for PBXNativeTarget "SchedulerUITests" */;
+			buildPhases = (
+				28EDDD412DC094FF0008A7BE /* Sources */,
+				28EDDD422DC094FF0008A7BE /* Frameworks */,
+				28EDDD432DC094FF0008A7BE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				28EDDD472DC094FF0008A7BE /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				28EDDD482DC094FF0008A7BE /* SchedulerUITests */,
+			);
+			name = SchedulerUITests;
+			packageProductDependencies = (
+			);
+			productName = SchedulerUITests;
+			productReference = 28EDDD452DC094FF0008A7BE /* SchedulerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		28EDDD1D2DC094FC0008A7BE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					28EDDD242DC094FC0008A7BE = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					28EDDD3A2DC094FF0008A7BE = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 28EDDD242DC094FC0008A7BE;
+					};
+					28EDDD442DC094FF0008A7BE = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 28EDDD242DC094FC0008A7BE;
+					};
+				};
+			};
+			buildConfigurationList = 28EDDD202DC094FC0008A7BE /* Build configuration list for PBXProject "Scheduler" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 28EDDD1C2DC094FC0008A7BE;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 28EDDD262DC094FC0008A7BE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				28EDDD242DC094FC0008A7BE /* Scheduler */,
+				28EDDD3A2DC094FF0008A7BE /* SchedulerTests */,
+				28EDDD442DC094FF0008A7BE /* SchedulerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		28EDDD232DC094FC0008A7BE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28EDDD392DC094FF0008A7BE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28EDDD432DC094FF0008A7BE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		28EDDD212DC094FC0008A7BE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28EDDD372DC094FF0008A7BE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28EDDD412DC094FF0008A7BE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		28EDDD3D2DC094FF0008A7BE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 28EDDD242DC094FC0008A7BE /* Scheduler */;
+			targetProxy = 28EDDD3C2DC094FF0008A7BE /* PBXContainerItemProxy */;
+		};
+		28EDDD472DC094FF0008A7BE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 28EDDD242DC094FC0008A7BE /* Scheduler */;
+			targetProxy = 28EDDD462DC094FF0008A7BE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		28EDDD4F2DC094FF0008A7BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Scheduler/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "약속관리";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = kr.ac.duksung.Scheduler;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		28EDDD502DC094FF0008A7BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Scheduler/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "약속관리";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = kr.ac.duksung.Scheduler;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		28EDDD512DC094FF0008A7BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		28EDDD522DC094FF0008A7BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		28EDDD542DC094FF0008A7BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = kr.ac.duksung.SchedulerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Scheduler.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Scheduler";
+			};
+			name = Debug;
+		};
+		28EDDD552DC094FF0008A7BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = kr.ac.duksung.SchedulerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Scheduler.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Scheduler";
+			};
+			name = Release;
+		};
+		28EDDD572DC094FF0008A7BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = kr.ac.duksung.SchedulerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Scheduler;
+			};
+			name = Debug;
+		};
+		28EDDD582DC094FF0008A7BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = kr.ac.duksung.SchedulerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Scheduler;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		28EDDD202DC094FC0008A7BE /* Build configuration list for PBXProject "Scheduler" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28EDDD512DC094FF0008A7BE /* Debug */,
+				28EDDD522DC094FF0008A7BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		28EDDD4E2DC094FF0008A7BE /* Build configuration list for PBXNativeTarget "Scheduler" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28EDDD4F2DC094FF0008A7BE /* Debug */,
+				28EDDD502DC094FF0008A7BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		28EDDD532DC094FF0008A7BE /* Build configuration list for PBXNativeTarget "SchedulerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28EDDD542DC094FF0008A7BE /* Debug */,
+				28EDDD552DC094FF0008A7BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		28EDDD562DC094FF0008A7BE /* Build configuration list for PBXNativeTarget "SchedulerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28EDDD572DC094FF0008A7BE /* Debug */,
+				28EDDD582DC094FF0008A7BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 28EDDD1D2DC094FC0008A7BE /* Project object */;
+}
